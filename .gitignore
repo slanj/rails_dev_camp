@@ -19,3 +19,5 @@
 .byebug_history
 
 /.c9/*
+
+/config/secrets.yml

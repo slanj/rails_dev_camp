@@ -52,3 +52,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 gem 'irbtools', require: 'irbtools/binding'
+gem 'friendly_id', '~> 5.1.0' 

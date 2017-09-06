@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  devise_for :users
   get 'about-me', to: 'pages#about'
   get 'contact', to: 'pages#contact'
   get 'portfolio/:id', to: 'portfolios#show', as: 'portfolio_show'
